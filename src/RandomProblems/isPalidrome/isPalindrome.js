@@ -1,4 +1,4 @@
-import reverseString from "../reverse_string/reverseString";
+import reverseString from "../reverseString/reverseString";
 const isPalindrome = (x) => {
   if (!x || (typeof x !== "string" && typeof x !== "number")) {
     return false;
